@@ -1,4 +1,3 @@
-from KsDataReader import KsDataReader
 def KsDataReader(symbol,sdate,edate):
     import pandas as pd
     local_df = pd.read_json("http://rimanakhala.pythonanywhere.com/alldb")
